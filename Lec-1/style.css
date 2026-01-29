@@ -1,0 +1,52 @@
+.main{
+    margin: 2%;
+    padding: 8%;
+    max-height: 100vh;
+    border : solid black 2px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+ .profile{
+    margin: 1%;
+    display: flex;
+    padding: 8%;
+    border : solid black 2px;
+    background-color: blanchedalmond;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-width: 70vw;
+}
+
+.box {
+    display: flex;
+    padding: 2%;
+    border : solid black 2px;
+    background-color: blanchedalmond;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 2%;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    margin: 5%;
+}

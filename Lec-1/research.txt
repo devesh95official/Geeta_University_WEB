@@ -1,0 +1,48 @@
+// access data
+https://codeforces.com/api/{methodName}
+
+//user object
+{
+      "lastName": "Khodyrev",
+      "lastOnlineTimeSeconds": 1760475609,
+      "rating": 1709,
+      "friendOfCount": 95,
+      "titlePhoto": "https://userpic.codeforces.org/1592/title/27e43714e4bea090.jpg",
+      "handle": "DmitriyH",
+      "avatar": "https://userpic.codeforces.org/1592/avatar/7cef566902732053.jpg",
+      "firstName": "Dmitriy",
+      "contribution": 0,
+      "organization": "",
+      "rank": "expert",
+      "maxRating": 2072,
+      "registrationTimeSeconds": 1268570311,
+      "maxRank": "candidate master"
+}
+
+//my object
+{
+  "status": "OK",
+  "result": [
+    {
+      "lastName": "Singh",
+      "country": "India",
+      "lastOnlineTimeSeconds": 1769613892,
+      "city": "Noida",
+      "rating": 1722,
+      "friendOfCount": 25,
+      "titlePhoto": "https://userpic.codeforces.org/4546711/title/3065b5ec01022ed9.jpg",
+      "handle": "devesh95",
+      "avatar": "https://userpic.codeforces.org/4546711/avatar/71ab14c04de5752.jpg",
+      "firstName": "Devesh",
+      "contribution": 0,
+      "organization": "",
+      "rank": "expert",
+      "maxRating": 1725,
+      "registrationTimeSeconds": 1735555820,
+      "maxRank": "expert"
+    }
+  ]
+}
+
+//url
+https://codeforces.com/api/user.info?handles={yourhandle}
